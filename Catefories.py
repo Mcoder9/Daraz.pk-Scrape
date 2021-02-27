@@ -1,9 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
-
+# from selenium.webdriver.chrome.options import Options
 # chrome_options = Options()
 # chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(ChromeDriverManager().install())
